@@ -1,0 +1,199 @@
+/*.pantalla {
+	background: #f9f9f9;
+}*/
+
+/* Style for grid cells */
+.rf-tgrid {
+    font-size: 16px;
+    padding: 8px 12px;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+/* Style for the grid */
+.rf-tablestyle {
+    box-shadow: 0 2px 6px rgba(50,50,93,.2);
+    background-color: #fff;
+    cursor: pointer;
+}
+#theGrid {
+	float: right;
+}
+
+#listwords{
+    display: none;
+}
+
+li {
+	margin: 0 0 5px 0;
+}
+
+/* Style for the div containing the grid */
+#rf-searchgamecontainer {
+    float: left;
+    padding-right: 20px; 
+}
+/* Style for the div containing the word list */
+#rf-wordcontainer {
+    float :left;
+    padding-right: 40px;
+    cursor: default;
+	margin : 0;
+    border: none;
+	cursor: pointer;	
+}
+
+/* Style for the words that have been found */
+.rf-foundword {
+	text-decoration : line-through;
+	color : lightgray;
+	font-style : italic;
+	border-collapse: collapse;
+    
+
+}
+
+#rf-tablegrid .rf-highlight {
+    background: red;
+}
+
+
+#rf-tablegrid .rf-glowing {
+	background-color: #607D8B;
+	color: #fff;
+}
+
+#rf-tablegrid .rf-selected {
+	background-color: #66BB6A;   
+    color: #fff;
+}
+
+.pregunta{
+    margin: 0px 0 0 175px; 
+    list-style: none;
+}
+
+#theGrid{
+    margin: 15px 0 0 0;    
+}
+
+.pregunta {
+	text-align: center;
+    margin: auto;
+}
+
+.retro {
+	width: 400px;
+	min-height: 220px;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -125px;
+	margin-left: -250px;
+	display: none;
+	z-index: 999999;
+}
+
+#final_ok {
+    background: #4CAF50;
+}
+
+#final_ok p {
+    color:#fff !important;
+    text-align: center;
+    padding: 2px 30px;
+}
+
+#intento {
+    background: #FFD600;
+}
+
+#fin-intento p {
+    color:#fff !important;
+    text-align: center;
+    padding: 2px 30px;
+}
+
+#fin-intento {
+    background: #E53935;
+}
+
+#intento p {
+    color:#545454 !important;
+    text-align: center;
+    padding: 2px 30px;
+}
+
+#final_error {
+    background: #E53935;
+}
+
+#final_error p {
+    color:#fff !important;
+    text-align: center;
+    padding: 2px 30px;
+}
+.back {
+    border: 1px solid #fff;
+	padding:10px 20px;
+	max-width:30%;
+	margin: 0px auto 10px;
+	cursor:pointer;
+	-webkit-transition: all .25s linear;
+	   -moz-transition: all .25s linear;
+	    -ms-transition: all .25s linear;
+	     -o-transition: all .25s linear;
+	        transition: all .25s linear;
+}
+
+.back:hover {
+	background:rgba(255,255,255,0.3);
+}
+
+.reload {
+    border: 1px solid #fff;
+	padding:10px 20px;
+	max-width:35%;
+	margin: 0px auto 10px;
+	cursor:pointer;
+	-webkit-transition: all .25s linear;
+	   -moz-transition: all .25s linear;
+	    -ms-transition: all .25s linear;
+	     -o-transition: all .25s linear;
+	        transition: all .25s linear;
+}
+
+.reload:hover {
+	background:rgba(255,255,255,0.3);
+}
+
+#reactivos ul li {
+	list-style: none;
+	font-size: 16px;
+}
+
+#reactivos ul li span {
+	font-weight: bold;
+
+}
+
+#reactivos ul li i {
+	color: #545454;
+	border-radius:3px;
+	background: #fff;
+	border:1px solid #A3A3A3;
+	padding: 10px 8px;
+}
+
+@media (max-width: 1024px) {
+  #reactivos ul {
+  	padding-left: 0px !important; 
+  }
+	#reactivos ul li {
+		font-size: 14px;
+	}
+
+}
